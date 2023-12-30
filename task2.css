@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+}
+
+.container{
+    position: relative;
+    background-color: #ffffff58;
+    width:400px;
+    height:385px;;
+}
+
+.container h2{
+    background-color: rgba(0, 225, 255, 0.33);
+    color: #fff;
+    padding:10px;
+    padding-left: 110px;
+}
+
+.container ul{
+    position:relative;
+    padding:20px;
+}
+
+.container ul li{
+    position: relative;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.container ul li:last-child
+{
+    border-bottom: none;
+}
+
+.container ul li label{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container ul li label input{
+    visibility: hidden;
+    appearance:none;
+
+}
+
+.container ul li label p{
+    position: absolute;
+}
+
+.container ul li label span{
+    position: relative;
+    width:20px;
+    height: 20px;
+    border: 1px solid  rgba(0,0,0,0.1);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+}
+
+.container ul li label span:before{
+    content:'';
+    position: absolute;
+    top:5px;
+    width: 10px;
+    height: 5px;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    transform: rotate(-45deg);
+}
+
+.container ul li label input:checked ~ p{
+   text-decoration: line-through;
+   color:#ccc;
+}
+
+.container ul li label input:checked ~ p{
+    text-decoration: line-through;
+ }
+
+
+.container ul li label input:checked ~ span{
+    background-color: rgba(0, 225, 255, 0.33);
+ }
+
+ .container ul li label input:checked ~ span::before{
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+   
+}

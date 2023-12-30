@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+
+.container{
+  
+    width: 100%;
+    background: linear-gradient(to bottom,#D3D3D3,#ffb6c1,#D3D3D3,#ffb6c1);
+    position:relative;
+    overflow:hidden;
+    height:500px;
+  
+}
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color:#3e3e3e;
+   
+}
+
+header{
+    position: relative;
+    top:0;
+    height:90px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 44px;
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
+}
+
+.logo img{
+    margin-top: 40px;
+    width:80px;
+    margin-right: 8px;
+}
+
+.menu-list li{
+    list-style:none;
+    display: inline ;
+    margin-left:44px;
+    cursor:pointer;
+    transition: color 0.5s;
+}
+
+.menu-list li.active, 
+.menu-list li:hover{
+   color: #8000ff;
+}
+
+
+.main{
+    padding-top: 40px;
+    position: relative;
+    flex: 1;
+    display:flex;
+}
+
+.left{
+    max-width:50%;
+    padding: 0 64px;
+
+}
+
+.title{
+    font-size: 2.8em;
+    letter-spacing: 1px;
+    margin: 48px auto;
+}
+
+.title strong{
+    font-size: 1.5em;
+    display: block;
+    line-height: 80px;
+}
+
+.msg{
+    max-width:80%;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    margin-bottom:48px;
+}
+
+.right{
+    padding:40px 0 0 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right img{
+    
+    width:575px;
+    height:405px;
+    margin-bottom: 5px;
+}
+
+.container2{
+    background: linear-gradient(to bottom,#ffb6c1,#D3D3D3,#D3D3D3);
+    position:relative;
+    overflow:hidden;
+    height:675px;
+    width:100%;
+}
+
+.container2 .sectionHeadingWrap {
+    margin-top:100px;
+    margin-left:620px;
+    font-size:25px;
+    color:#001eff63;
+}
+
+
+.flavors{
+    display:flex;
+  }
+
+.flavors .item{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-width:cover;
+    min-height:250px;
+    padding-top:40px;
+}
+
+.item img{
+    position: relative;
+    margin-left:150px;
+    height:350px;
+    width:1000px;
+    width:cover;
+    cursor:pointer;
+    transition: flavors 0.5s;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+
+.aam img{
+    width:180px;
+    height:300px;
+}
+
+.corno img{
+    width:180px;
+    height:300px;
+}
+
+.cup img{
+    width:180px;
+    height:300px;
+}
+
+.choco img{
+    width:180px;
+    height:300px;
+}
+
+
+.ind_buttons .buyNowBtn{
+    border:none;
+    outline:none;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    color: rgb(87, 14, 87);
+    font-size: 20px;
+    padding:18px 32px;
+    margin-left: 160px;
+    margin-right: 10px;
+    justify-content: space-evenly;
+    display: inline-block;
+    border-radius:25px;
+    font-family: "GothamRoundedMedium";
+    cursor:pointer;
+    transition:background-color 0.5s;
+}
+
+.ind_buttons .buyNowBtn:hover{
+    background-color:#fdf3f8;
+}
+
+.container3{
+    background-color:#dcdcdc;
+    height:400px;
+    padding: 0 0 50px 50px;
+}
+
+h4{
+    margin-top:40px;
+}
+.columnn {
+
+    display: inline-block;
+    margin-left: 60px;
+    color: rgb(87, 14, 87);
+    font-size: 20px;
+    font-family: "GothamRoundedMedium";
+}
+
+.columnn .column1 {
+float:left;
+margin-left: 50px;
+margin-right:200px;
+}
+
+
+.columnn .column2 {
+    float:left;
+    margin-right:200px;
+    }
+
+    
+.columnn .column3 {
+    float:left;
+    margin-right:50px;
+    }
+
+
+.columnn .column1 ul{
+    margin-top: 30px;
+    list-style: none;
+    margin-bottom:50px;
+   
+}
+
+.columnn .column2 ul{
+    margin-top: 30px;
+    list-style: none;
+    margin-bottom:50px;
+    
+}
+
+.columnn .column3 ul{
+      margin-top: 30px;
+    list-style: none;
+    margin-bottom:50px;  
+}
+
+.contact{
+    margin-top: 100px;
+}
+.column3 i{
+    margin-top: 10px;
+    margin-right:8px;
+}
+
+.container3 footer p{
+    margin-left: 100px;
+}
+
